@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="fotoperfil.jpg" class="profile-picture">
+            <h1>Bernardo Pereira Silva</h1>
+            <p class="tagline">Estudante de Ciência da Computação</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about">
+            <h2>Sobre Mim</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+            <p>Suspendisse eu orci lorem. Curabitur at lacus ac velit ornare lobortis. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:bernardopereira@usp.br">bernardopereira@usp.br</a></p>
+            <p>GitHub: <a href="https://github.com/BernardoPerS" target="_blank">github.com/BernardoPerS</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Bernardo Pereira Silva. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
